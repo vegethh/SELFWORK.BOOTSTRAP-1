@@ -1,0 +1,42 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Electrolize', sans-serif;
+    color: blueviolet; margin-top: 0px; padding: 10px;
+}
+
+.Barra{
+    display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; position: sticky; top: 0px;
+}
+
+.Pic{
+    height: 300px; width: 300px;
+}
+
+.Pic-Net{
+    height: 100px; width: 100px;
+}
+
+.Btn:hover{
+    background-color:black;
+color: red
+}
+
+.deep{
+    margin-top:10px ;
+}
+
+.Title{
+    display: flex; justify-content: center; align-items: center; padding: 5px; margin: 5px;
+}
+
+ol{
+    color: goldenrod; font-size: large;
+}
