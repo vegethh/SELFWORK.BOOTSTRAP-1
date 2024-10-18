@@ -13,7 +13,7 @@ h1, h2, h3, h4{
 }
 
 .Barra{
-    display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; position: sticky; top: 0px;
+    position: sticky; top: 0px; display: flex; flex-wrap: wrap; justify-content: space-evenly; align-items: center;
 }
 
 .Pic{
@@ -29,14 +29,39 @@ h1, h2, h3, h4{
 color: red
 }
 
-.deep{
-    margin-top:10px ;
-}
-
 .Title{
     display: flex; justify-content: center; align-items: center; padding: 5px; margin: 5px;
 }
 
+ul{
+    list-style-type: none; font-size: large; color: whitesmoke;
+}
+
+.foot-bar{
+    height: 250px;
+}
+
 ol{
-    color: goldenrod; font-size: large;
+    list-style-type: none; font-size: large;
+}
+
+.Link-1{
+    text-decoration: none;
+}
+
+.Link-2{
+    text-decoration: none;
+}
+.Link-3{
+    text-decoration: none;
+}
+
+.Link-4{
+    text-decoration: none;
+}
+.Link-6{
+    text-decoration: none; color: blueviolet;
+}
+.Link-5{
+    text-decoration: none; color: blueviolet;
 }
